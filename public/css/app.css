@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand,
+.footer-brand {
+    font-family: "Haettenschweiler";
+    color: #e50914 !important;
+}
+
+.footer-brand {
+    font-size: 65px;
+    color: #e50914;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #e50914;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #e50914;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #ffff;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+.footer-text {
+    font-family: "Open Sans";
+}
+
+.terms-list {
+    width: 40%;
+}
+
+.terms-list li {
+    padding: 0 0.8rem;
+    border-right: 1px solid #ffff;
+}
+
+.terms-list li:last-child {
+    border: none;
+}
+
+.terms-list li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.terms-list li:hover > a {
+    color: #e50914;
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+.fab {
+    color: white;
+    background-color: #8f8f8f;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.5);
+}
+
+.fa-twitter:hover {
+    background: #55acee;
+}
+
+.fa-instagram:hover {
+    background: rgb(225, 48, 108);
+}
+
+.fa-facebook-f:hover {
+    background: #3b5998;
+}
+
+.fa-youtube:hover {
+    background: #bb0000;
+}
+
+.fa-reddit-alien:hover {
+    background: #f34802;
+}
